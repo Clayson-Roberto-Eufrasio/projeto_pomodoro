@@ -1,13 +1,15 @@
-import { TimerIcon } from 'lucide-react'
-import { Heading } from './components/heading/Heading'
+
 import './styles/global.css'
 import './styles/theme.css'
+
+import { PageHome } from './components/pageHome/PageHome'
 
 function App() {
   
   return (
     <>
-      <Heading>Pomodoro Timer <button><TimerIcon /></button> </Heading>
+      <PageHome />
+      
     </>
   )
 }
